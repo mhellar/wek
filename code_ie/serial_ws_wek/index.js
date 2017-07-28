@@ -8,11 +8,7 @@ emitter.add('localhost', 6448);
 var server = app.listen(3000);
 var io = require('socket.io')(server);
 
-<<<<<<< HEAD
-var serialPort = new com.SerialPort("/dev/cu.usbmodem1D11711", {
-=======
 var serialPort = new com.SerialPort("/dev/cu.usbmodem1411", {
->>>>>>> master
     baudrate: 9600,
     parser: com.parsers.readline('\r\n')
 });
