@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
+=======
+{ "window.zoomLevel": 1 }
+>>>>>>> master
 
 <head>
     <meta charset="utf-8">
@@ -67,15 +71,35 @@
                 <a href="https://java.com/en/download/">Java Installer</a>
             </section>
             <section>
+<<<<<<< HEAD
                 <p>Open Simple_Mouse_DraggedObject_2Inputs from the inputs folder</p><br>
                 <p>Open Processing_FMSynth_3ContinuousOutputs outputs folder</p><br>
                 <p>Open the Wekinator</p><br>
                 <p>Set 2 inputs</p><br>
                 <p>Set 3 outputs</p><br>
+=======
+                <ul>
+                    <li>Open Simple_Mouse_DraggedObject_2Inputs from the inputs folder</li>
+                    <li>Open Processing_FMSynth_3ContinuousOutputs outputs folder</li>
+                    <li>Open the Wekinator</li>
+                    <li>Set 2 inputs</li>
+                    <li>Set 3 outputs</li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>Open VideoInput_FaceDetection_Processing_3Inputs from the inputs folder</li>
+                    <li>Open Processing_SimpleObjectAnimation_5Continuous outputs folder</li>
+                    <li>Open the Wekinator</li>
+                    <li>Set 2 inputs</li>
+                    <li>Set 5 outputs</li>
+                </ul>
+>>>>>>> master
             </section>
             <section>
                 <ul>
                     <ul>Ingredients(Key Terms):</ul><br>
+<<<<<<< HEAD
                     <ul>Inputs</ul>
                     <ul>Outputs</ul>
                     <ul>Machine Learning Algorithm Middleware</ul>
@@ -94,6 +118,121 @@
                 <p>Set 5 inputs</p><br>
                 <p>Set 3 outputs</p><br>
                 <p>Open Processing_FMSynth_3ContinuousOutputs outputs folder</p><br>
+=======
+                    <ul>Open Sound Control(OSC) for communicaion</ul>
+                    <ul>Inputs</ul>
+                    <ul>Outputs</ul>
+                    <ul>Output Models</ul>
+                </ul>
+            </section>
+            <section>
+                <p>OSC</p>
+                <img src="img/osc.png">
+            </section>
+            <section>
+                <p>Open Sound Control (OSC) is a protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology. Bringing the benefits of modern networking technology to the
+                    world of electronic musical instruments, OSC's advantages include interoperability, accuracy, flexibility, and enhanced organization and documentation.</p>
+            </section>
+
+
+            <section>
+                <ul>
+                    <ul>Inputs(examples):</ul><br>
+                    <ul>Mouse</ul>
+                    <ul>Gamepad</ul>
+                    <ul>Arduino and Sensors</ul>
+                    <ul>Kinect</ul>
+                    <ul>Mic input</ul>
+                    <ul>Windchimes.</ul>
+                    <ul>Etc....</ul>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>Outputs(examples):</li><br>
+                    <li>Audio</li>
+                    <li>Video</li>
+                    <li>Drones</li>
+                    <li>Control your house</li>
+                    <li>Etc....</li>
+
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>3 types of Outputs</li><br>
+                    <li>Numeric</li><br>
+                    <li>Classification</li><br>
+                    <li>Dynamic time warping</li><br>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>Continuous Model</li><br>
+                </ul>
+                <p>Numeric outputs: These are numeric values. There are two types of numeric outputs:</p>
+                <ul>
+                    <li class="fragment">Real-valued (“continuous”) numeric outputs can take on any number value (possibly limited to a certain range). For example, you might want to control “audio gain” with a real-valued output limited between 0 and 1. This is the default
+                        output type in Wekinator.</li>
+                    <li class="fragment">Integer-valued numeric outputs can take on any integer value (possibly limited to a certain range). For example, you might want to control “MIDI pitch” with an integer-valued output between 0 and 127.
+                    </li>
+                </ul>
+
+            </section>
+            <section>
+                <ul>
+                    <li>Classification Model</li><br>
+                </ul>
+                <p>Classification outputs: These are discrete categories, such as “Position 1”, “Position 2,” “Position 3.” You’ll need to tell Wekinator how many categories to use. Wekinator will send outputs as numbers, such as “1,” “2,” “3” for categories
+                    1, 2, and 3. Wekinator will attempt to categorize every new input you send it.</p>
+            </section>
+            <section>
+                <ul>
+                    <li>Classification Model</li><br>
+                </ul>
+                <li>Open Simple_Mouse_DraggedObject_2Inputs from the inputs folder</li>
+                <li>Open Processing_FMSynth_3ContinuousOutputs outputs folder</li>
+                <li>Open the Wekinator</li>
+                <li>Set 2 inputs</li>
+                <li>Set 3 outputs</li>
+                <li>Set the output type to All Classifiers</li>
+            </section>
+            <section>
+                <ul>
+                    <li>Dynamic Time Warping</li><br>
+                </ul>
+                <p>Dynamic time warping event outputs: Use this output type when you want Wekinator to recognize patterns over time. For instance, you might want to play one note every time you draw a circle in the air with your hand, and another note every
+                    time you draw a square. If you’re not drawing either one, or if you’re in the middle of drawing, you don’t want anything to happen. That is, you want Wekinator to look for a particular pattern (or multiple patterns) of how the inputs
+                    are changing over time, and tell you when a pattern is spotted and which one it was.</p>
+            </section>
+            <section>
+                <ul>
+                    <li>Dynamic Time Warping</li><br>
+                </ul>
+                <li>Open Mouse_ForDTW_2Inputs from the inputs folder</li>
+                <li>Open Processing_GameExample_1Dtw outputs folder</li>
+                <li>Open the Wekinator</li>
+                <li>Set 2 inputs</li>
+                <li>Set 1 output</li>
+                <li>Set the output type to All Dynamic Time Warping</li>
+            </section>
+            <section>
+                <p>Writing you Own Stuff</p>
+            </section>
+
+            <section>
+                <li>Using the Circuit Payground as a Input source</li>
+                <li>Open circuit_pg_wek in arduino, and Upload</li>
+                <li>Edit serial_ws_wek in a text editor, set the proper serial port on line 11</li>
+                <li>CD serial_ws_wek, npm install, node index.js </li>
+                <li>Open the Wekinator</li>
+                <li>Set 5 inputs</li>
+                <li>Set 3 outputs</li>
+                <li>Open Processing_FMSynth_3ContinuousOutputs outputs folder</li>
+            </section>
+            <section>
+                <p>You can run it on the Pi!</p><br>
+>>>>>>> master
             </section>
         </div>
     </div>

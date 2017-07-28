@@ -18,6 +18,7 @@ void loop() {
   rightButtonPressed = CircuitPlayground.rightButton();
 
 
+<<<<<<< HEAD
   if (leftButtonPressed) {
     Serial.print("1");
   } else {
@@ -30,6 +31,20 @@ void loop() {
     Serial.print("0");
   }
   Serial.print(",");
+=======
+//  if (leftButtonPressed) {
+//    Serial.print("1");
+//  } else {
+//    Serial.print("0");
+//  }
+//  Serial.print(",");
+//  if (rightButtonPressed) {
+//    Serial.print("1");
+//  } else {
+//    Serial.print("0");
+//  }
+//  Serial.print(",");
+>>>>>>> master
   Serial.print(X);
   Serial.print(",");
   Serial.print(Y);
